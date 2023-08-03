@@ -27,13 +27,15 @@ li{
 /*Showcase*/
 .showcase-bg{
     background: url(Images/showcase.webp);
-    height: 100vh;
+    height: 110vh;
+    padding-bottom: 75px;
 }
 .container{
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 30px;
+    padding-bottom: 75px;
 }
 /*nav*/
 nav{
@@ -80,6 +82,8 @@ nav{
     margin-top: 50px;
     border: 2px solid var(--sage-green);
     width: fit-content;
+    margin: 75px;
+    z-index: 10;
 }
 #dropdown{
     background-color: rgba(149, 145, 145, 0.469);
@@ -89,6 +93,7 @@ nav{
     font-family: 'Montserrat';
     padding: 10px;
     border-radius: 15px;
+    
 }
 .launchpad{
     border-right: 2px solid var(--sage-green);
@@ -97,7 +102,23 @@ nav{
 .launchpad p{
     color: var(--sage-green);
     font-family: 'Montserrat';
-
+}
+/*Adventures*/
+.adv-bg{
+    text-align: center;
+    padding-top: 75px;
+    background-color: black;
+}
+.adv-sub-head{
+    color: aliceblue;
+    font-family: Anton;
+    font-size: 36px;
+}
+.adv-head{
+    font-size: 76px;
+    color: var(--sage-green);
+    font-family: 'Montserrat';
+    font-weight: 600;
 }
 
 
@@ -116,7 +137,7 @@ nav{
 
 
 /*hover*/
-.showcase-side ul li a:hover{
+.nav-side ul li a:hover{
     color: aliceblue;
     font-size: 28px;
 }
