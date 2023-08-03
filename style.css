@@ -14,7 +14,16 @@ a{
 li{
     list-style: none;
 }
-
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 /*Showcase*/
 .showcase-bg{
     background: url(Images/showcase.webp);
@@ -64,7 +73,33 @@ nav{
     -webkit-background-clip: text; /* WebKit-based browsers */
     color: transparent;
     transition: background-size 0.3s ease-in-out;
+    max-width: 500px;
 }
+/*Dropdown*/
+.drop-group{
+    margin-top: 50px;
+    border: 2px solid var(--sage-green);
+    width: fit-content;
+}
+#dropdown{
+    background-color: rgba(149, 145, 145, 0.469);
+    border: 0px;
+    font-size: 26px;
+    color: aliceblue;
+    font-family: 'Montserrat';
+    padding: 10px;
+    border-radius: 15px;
+}
+.launchpad{
+    border-right: 2px solid var(--sage-green);
+    padding: 15px;
+}
+.launchpad p{
+    color: var(--sage-green);
+    font-family: 'Montserrat';
+
+}
+
 
 
 
