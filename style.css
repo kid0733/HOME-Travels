@@ -419,11 +419,14 @@ nav{
         margin: 0;
         border-bottom: none;
       }
+      .flex-column{
+        padding: 2px;
+      }
       #dropdown{
-        font-size: 13px;
+        font-size: 10px;
       }
       .drop-head{
-        
+        font-size: 10px;
       }
       
       .launchpad {
