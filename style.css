@@ -381,15 +381,8 @@ nav{
         max-width: 100vw;
         overflow-x: hidden;
     }
-    a:hover,
-    button:hover {
-      transition: none;
-      transform: none;
-    }
-    a:hover {
-        transition: none;
-        transform: none;
-      }
+    
+    
     .nav-side {
       display: none;
     }
