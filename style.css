@@ -120,8 +120,209 @@ nav{
     font-family: 'Montserrat';
     font-weight: 600;
 }
+/*ADV Cards*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px; /* Set the width of the grid column */
+    grid-template-rows: 100px 1fr; /* Set the height of the grid rows */
+    justify-content: center;
+   
+}
+  
+.grid-container-img {
+    grid-row: 1; /* Start at row 1 (top row) */
+    grid-column: 1; /* Start at column 1 */
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.grid-container-img img {
+    width: 100px;
+    border-radius: 50%;
+    
+    
+}
+  
+.card-bg {
+    
+    height: 500px;
+    width: 300px;
+    background-size: contain;
+    grid-row: 2; /* Start at row 2 (bottom row) */
+    grid-column: 1; /* Start at column 1 */
+    margin-top: -50px; /* Overlap by 50px (negative margin) */
+    border-radius: 25px;
+}
+.blue-bg{
+    background: url(images/blue-planet-bg.jpeg) no-repeat;
+}
+.red-bg{
+    background: url(images/mars.jpeg) no-repeat;
+}
+.pink-bg{
+    background: url(Images/venus-bg.jpeg) no-repeat;
+}
+
+.cards-adv{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+.card{
+    padding-top: 100px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Montserrat';
+}
+.adv-card-head-blue{
+    color: rgba(240, 248, 255, 0.648);
+    
+    font-size: 50px;
+    margin: 65px 0px;
+    transition: color 0.4s ease;
+}
+.adv-card-head-red{
+    color: rgba(248, 149, 27, 0.71);
+    
+    font-size: 50px;
+    margin: 65px 0px;
+    transition: color 0.4s ease;
+}
+.blue{
+    color: rgb(146, 142, 177);
+}
 
 
+.adv-btn-blue{
+    color: aliceblue;
+    background-color: rgba(118, 118, 192, 0.672);
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.adv-btn-red{
+    color: aliceblue;
+    background-color: rgba(204, 132, 50, 0.672);
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+.hr-adv{
+    border: 2px solid var(--sage-green);
+    margin-top: 100px;
+}
+/*Suit*/
+.suit{
+    margin-top: 100px;
+}
+.suit-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.suit-heading{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: center;
+}
+.suit-heading-lhs{
+    padding: 20px 30px;
+    border-left: 2px solid var(--sage-green);
+    border-bottom: 2px solid var(--sage-green);
+
+}
+.suit-heading-lhs p{
+    color: var(--sage-green);
+    font-family: anton;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.suit-heading-lhs h1{
+    color: aliceblue;
+    font-family: 'Montserrat';
+    font-family: 72px;
+    
+}
+.suit-heading-rhs{
+    padding: 25px 25px;
+    border-left: 2px solid var(--sage-green);
+    color: aliceblue;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    border-bottom: 2px solid var(--sage-green);
+}
+.suit-text{
+    margin-top: 50px;
+    width: 400px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.suit-text p{
+    font-size: 23px;
+    color: var(--sage-green);
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+}
+.suit-details{
+    margin-top:90px ;
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.suit-block-one{
+    border: 1px solid var(--sage-green);
+    color: aliceblue;
+    padding: 15px 35px;
+}
+.suit-block-one{
+    font-family: 'Montserrat';
+}
+.suit-block-one p{
+    font-family: 'Anton';
+    letter-spacing: 2px;
+}
+.suit-btn-one a {
+    color: var(--sage-green);
+    padding: 15px 35px;
+    font-family: 'Anton';
+    background-color: rgb(23, 61, 32);
+    transition: all 0.5s ease;
+}
+.suit-btn-one a:hover{
+    background-color: var(--sage-green);
+    color: rgb(23, 61, 32);
+    transition: all 0.5s ease;
+}
+.footer{
+
+    margin-top: 150px;
+}
+.footer-elements{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+    font-size: 26px;
+    
+}
+.footer-elements a{
+    color: var(--sage-green);
+    transition: all 0.3s ease;
+}
+.footer-bg{
+    background: rgb(29, 28, 28);
+}
+.copy{
+    margin-top: 50px;
+    color: grey;
+    font-family: 'Montserrat';
+}
 
 
 
@@ -143,5 +344,23 @@ nav{
 }
 .showcase-head:hover{
     background-size: 7px 7px;
+    transition: all 0.3s ease;
+}
+.adv-card-head:hover{
+    color: antiquewhite;
+    transition: color 0.4s ease;
+}
+.adv-btn-blue:hover{
+    background-color: rgb(118, 118, 192);
+    transition: all 0.3s ease;
+}
+
+.adv-btn-red:hover{
+    background-color: rgb(189, 120, 41);
+    transition: all 0.3s ease;
+}
+.footer-elements a:hover{
+    font-size: 30px;
+    color: aliceblue;
     transition: all 0.3s ease;
 }
