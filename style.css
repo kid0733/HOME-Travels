@@ -472,4 +472,14 @@ nav{
         flex-direction: column;
         gap: 20px;
       }
+      
+      .suit-lhs img{
+        height: 70%;
+        width: 70%;
+
+      }
+      .suit-lhs {
+        overflow: hidden;
+        margin-bottom: 50px;
+      }
   }
