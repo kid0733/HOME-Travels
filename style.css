@@ -404,7 +404,7 @@ nav{
       }
     .showcase-head {
         font-size: 60px;
-        
+        color: var(--sage-green);
       }
       .drop-group {
         flex-direction: row;
@@ -434,6 +434,18 @@ nav{
         background: url(Images/showcase.webp) no-repeat;
         background-size: fit-content;
         padding-bottom: 100px;
+      }
+      /*Adv Responsive*/
+      .adv-sub-head{
+        font-size: 20px;
+      }
+      .adv-head{
+        color: var(--sage-green);
+        font-size: 30px;
+      }
+      .cards-adv{
+        flex-direction: column;
+        gap: 25px;
       }
 
   }
